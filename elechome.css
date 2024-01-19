@@ -7,7 +7,7 @@ body{
     color: white;
     margin: 0;
     padding: 0;
-    background-image: url("image 1.png");
+    background-image: url("images/image\ 1.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 1024px;
@@ -60,6 +60,7 @@ nav button
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     border: none;
+    cursor: pointer;
 }
 
 header{
@@ -111,5 +112,6 @@ body .availabilitybtn{
     font-size: 20px;
     border: none;
     margin-bottom: 50px;
+    cursor: pointer;
 }
 
