@@ -1,0 +1,17 @@
+[
+    {
+        "hotelname": "Luxury Suite Oasis",
+        "description": "A Luxury Suite Oasis. Enjoy the finest of the finest facilities!",
+        "image": "/images/image 3.png"
+    },
+    {
+        "hotelname": "Skyview Retreat",
+        "description": "A perfect view for those who want a stunning exterior view",
+        "image": "/images/image 4.png"
+    },
+    {
+        "hotelname": "Romantic Hideaway",
+        "description": "Going with a partner? This is the perfect room for you!",
+        "image": "/images/image 5.png"
+    }
+]
