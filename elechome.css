@@ -19,8 +19,8 @@ nav{
     box-sizing: border-box;
     height: 56px;
     align-items: center;
-    color: black;
-    background-color: rgba(255, 255, 0, 0.5);
+    color: white;
+    background-color: rgba(8, 9, 17, 0.554);
     padding-left: 2%;
     font-family: "Poppins", sans-serif;
     font-size: 20px;
@@ -29,7 +29,7 @@ nav{
 
 nav a
 {
-    color: black;
+    color: white;
 }
 
 nav ul{
@@ -57,7 +57,7 @@ nav button
     width: 157px;
     height: 56px;
     border-radius: 0;
-    background-color: #1E41FF;
+    background-color: darkblue;
     color: white;
     font-family: "Poppins", sans-serif;
     font-size: 20px;
@@ -73,6 +73,7 @@ header{
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
+    color: white;
 }
 
 header img{
@@ -111,7 +112,7 @@ body .availabilitybtn{
     width: 361px;
     height: 47px;
     border-radius: 0;
-    background-color: #1E41FF;
+    background-color: darkblue;
     color: white;
     font-family: "Poppins", sans-serif;
     font-size: 20px;
@@ -120,3 +121,75 @@ body .availabilitybtn{
     cursor: pointer;
 }
 
+#AboutUs{
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    margin-top: 20%;
+    padding-bottom: 20px;
+    color: white;
+    background-color: rgba(8, 9, 17, 0.554);
+
+}
+.head{
+    font-family: "Great Vibes", cursive;
+    font-size: 50px;
+}
+.sub{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+}
+.SubtFirst{
+    margin-left: 5%;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 10px;
+}
+.subtopics1 {
+    padding-left: 10%;
+    flex: 1; /* Adjust flex */
+}
+.subtopics1 h2{
+    font-family: "Great Vibes", cursive;
+    font-size: 35px;
+}
+.subtopics1 p{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+}
+.img1{
+    flex: 1;
+    text-align: right;
+}
+.SubtFirst img{
+    width: 500px;
+    padding-right: 20%;
+}
+.SubtSec{
+    margin-left: 5%;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 10px;
+}
+.subtopics2 {
+    padding-left: 10%;
+    flex: 1; /* Adjust flex */
+}
+.subtopics2 h2{
+    font-family: "Great Vibes", cursive;
+    font-size: 35px;
+}
+.subtopics2 p{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+}
+.img2{
+    flex: 1;
+    text-align: right;
+}
+.SubtSec img{
+    width: 500px;
+    padding-right: 20%;
+}
