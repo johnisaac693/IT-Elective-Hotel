@@ -51,7 +51,7 @@ nav p.OurRooms{
     height: 600px;
     border: none;
     border-radius: 20px;
-    background-color: rgba(255, 255, 0, 0.5);
+    background-color: rgba(8, 9, 17, 0.554);
     overflow: hidden;
 }
 
@@ -65,13 +65,13 @@ nav p.OurRooms{
     font-family: 'Meow Script', cursive;
     font-size: 64px;
     text-align: center;
-    color: #333;
+    color: white;
 }
 .desc {
     font-family: 'Poppins', cursive;
     font-size: 27px;
     text-align: center;
-    color: #333;
+    color: white;
     padding-top: 0%;
 }
 img.room1{
