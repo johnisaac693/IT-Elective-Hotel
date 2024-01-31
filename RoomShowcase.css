@@ -56,7 +56,7 @@ nav p.OurRooms{
     padding: 20px;
     gap: 100px;
     display: flex;
-    background-color: rgba(255, 255, 0, 0.5);
+    background-color: rgba(8, 9, 17, 0.554);
   }
   
   .small-container {
@@ -75,7 +75,7 @@ nav p.OurRooms{
     font-family: 'Great Vibes', cursive;
     font-size: 60px;
     text-align: center;
-    color: black;
+    color: white;
     padding-top: 10%;
     font-weight:500px;
 }
@@ -87,5 +87,5 @@ nav p.OurRooms{
   bottom: 5px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: gold;
+  background-color: white;
 }
