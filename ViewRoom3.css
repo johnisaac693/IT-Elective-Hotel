@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Tangerine&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
 
 body {
-    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url("images/image\ 1.png");
+    background-image: url("images/bg2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 1024px;
     display: flex;
     flex-direction: column;
 }
@@ -21,42 +22,43 @@ nav{
     font-size: 20px;
 }
 nav a{
-    color: white;
+    color: black;
+    font-family: "Great Vibes",cursive;
+    font-weight:bold;
 }
 nav img{
-    height: 25px;
+    height: 40px;
     width: 40px;
-    padding-top: 30%;
+    padding-top: 5%;
 }
 nav p.OurRooms{
     font-family: Poppins;
-    color: white;
+    color: black;
     font-size: 36px;
-    font-weight: 400;
+    font-weight: bold;
     margin: 0;
     padding-top: 1%;
-    padding-left: 22%;
+    padding-left: 25%;
 
 }
 
 .box-container {
-    margin-top: 70px;
+    margin-top: 20px;
     align-self: center;
     box-sizing: border-box;
     display: flex;
     width: 1100px;
-    height: 720px;
+    height: 600px;
     border: none;
     border-radius: 20px;
-    background-color: white;
+    background-color: rgba(255, 255, 0, 0.5);
     overflow: hidden;
 }
 
 .textboxes {
     float: right;
     width: 70%;
-    background-color: #fff;
-    padding: 20px;
+    padding-bottom: 20px;
 
 }
 .roomname {
@@ -70,18 +72,20 @@ nav p.OurRooms{
     font-size: 27px;
     text-align: center;
     color: #333;
+    padding-top: 0%;
 }
 img.room1{
+    padding-top: 0%;
     padding-top: 5%;
     padding-left: 5%;
-    height: 600px;
+    height: 500px;
     width: 550px;
 }
 .price{
     float:none;
     Width: 350px;
-    Height: 67px;
-    background-color: blue;
+    Height: 50px;
+    background-color: gold;
     margin-left: 13%;
     
 }
@@ -96,7 +100,6 @@ padding-top: 1%;
 .arrow {
     position: absolute;
     font-size: 50px;
-    color: #fbf9f9; 
     padding: 70px;
     margin-top: 20%;
     cursor: pointer;
@@ -105,35 +108,10 @@ padding-top: 1%;
 
 .left {
     left: 0;
+    color: black;
 }
 
 .right {
     right: 0;
-}
-
-@media only screen and (max-width: 767px) {
-    body {
-        font-size: 10px;
-    }
-    .leftpanel {
-        position: relative;
-        width: calc(100% / 12 * 12);
-        box-sizing: border-box;
-    }   
-    .rightpanel {
-        position: relative;
-        width: calc(100% / 12 * 12);
-        box-sizing: border-box;
-        margin-left: 0%;
-    }
-}
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    body {
-        font-size: 14px;
-    }
-}
-@media only screen and (min-width: 1024px) {
-    body {
-        font-size: 22px;
-    }
+    color: black;
 }

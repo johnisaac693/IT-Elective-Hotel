@@ -1,16 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Tangerine&display=swap');
 
 body{
-    font-family: "Poppins", sans-serif;
-    color: white;
     margin: 0;
     padding: 0;
-    background-image: url("images/image\ 1.png");
+    background-image: url("images/bg2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 1024px;
     display: flex;
     flex-direction: column;
 }
@@ -21,13 +19,17 @@ nav{
     box-sizing: border-box;
     height: 56px;
     align-items: center;
+    color: black;
+    background-color: rgba(255, 255, 0, 0.5);
     padding-left: 2%;
+    font-family: "Poppins", sans-serif;
     font-size: 20px;
+    font-weight: bold;
 }
 
 nav a
 {
-    color: white;
+    color: black;
 }
 
 nav ul{
@@ -71,31 +73,34 @@ header{
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
-    margin-top: 150px;
 }
 
 header img{
-    height: 84px;
-    width: 121px;
+    height: 150px;
+    width: 150px;
 }
 
 header p.logo{
-    font-family: "Raleway", sans-serif;
+    font-family: "Great Vibes", cursive;
+    font-weight: bold;
     font-size: 96px;
     margin: 0;
 }
 
 header p.subtitle{
-    font-family: "Sarabun", sans-serif;
-  font-weight: 300;
-    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
     margin: 0;
+    padding-top: 0;
+    font-style: italic;
 }
 
 body .availabilitybtn{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    padding-top: 100px;
     align-self: center;
     height: calc( 100% - 100px );
     
