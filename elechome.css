@@ -19,20 +19,14 @@ nav{
     box-sizing: border-box;
     height: 56px;
     align-items: center;
-    color: white;
     background-color: rgba(8, 9, 17, 0.554);
     padding-left: 2%;
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: bold;
 }
-
-nav a
-{
-    color: white;
-}
-
 nav ul{
+    color: white;
     display: flex;
     flex-direction: row;
     height: 56px;
@@ -46,12 +40,16 @@ nav ul{
     width: 525px;
     justify-content: space-between;
 }
-
-nav .hamburgcon{
-    width: 25px;
-    height: 17px;
+nav a{
+    color: white;
+    font-family: "Poppins",cursive;
+    font-weight:bold;
 }
-
+nav img{
+    height: 40px;
+    width: 40px;
+    padding-top: 5%;
+}
 nav button
 {
     width: 157px;
@@ -74,6 +72,7 @@ header{
     margin-right: auto;
     box-sizing: border-box;
     color: black;
+    padding-top: 50px;
 }
 
 header img{
@@ -101,7 +100,7 @@ body .availabilitybtn{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding-top: 100px;
+    padding-top: 200px;
     align-self: center;
     height: calc( 100% - 100px );
     
@@ -129,15 +128,17 @@ body .availabilitybtn{
     padding-bottom: 20px;
     color: white;
     background-color: rgba(8, 9, 17, 0.554);
-
 }
 .head{
     font-family: "Great Vibes", cursive;
     font-size: 50px;
+    margin: 20px;
 }
 .sub{
     font-family: "Poppins", sans-serif;
     font-size: 25px;
+    margin: 20px;
+
 }
 .SubtFirst{
     margin-left: 5%;
@@ -149,6 +150,7 @@ body .availabilitybtn{
 .subtopics1 {
     padding-left: 10%;
     flex: 1; /* Adjust flex */
+    margin: 20px;
 }
 .subtopics1 h2{
     font-family: "Great Vibes", cursive;
