@@ -1,0 +1,93 @@
+<!-- Database for the login-->
+<?php
+$DBHost = "localhost"; //hostname
+$DBUser = "root"; //username
+$DBPass = ""; //password
+$DBName = "afpdb"; //Name
+$conn = mysqli_connect($DBHost, $DBUser, $DBPass, $DBName);
+if (!$conn) {die("Connection failed:" . mysqli_connect_error());}
+    if (isset($_POST['submit'])) { // Check if the form is submitted
+        $AccUsername = $_POST['empUser'];
+        $AccPass = $_POST['emp_password'];
+        
+           
+
+       
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serene Skyline Lodgings</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <!--define as the main container of the header(navigation bar), main(contains the contents), and footer(initially contacts)-->
+    <div id="mainBody">
+        <!-- Contains the navigation bar that holds the button link to navigate off and on the pages-->
+        <header id="header">
+            <nav id="nav">
+                <img style="padding-left: 2%; width: 70px; border-radius: 80px; padding-top: 1%; padding-bottom: 1%" src="Pics/Logo-Pics/logo.png"/>
+                <h1 style=" padding: 20px 15px 5px 5px;"><span style="color: rgb(0, 0, 0);">SERENE</span><span style=" color:#00008b;"> SKYLINE</span> <span style=" color:rgb(0, 0, 0);">LODGINGS</span></h1>
+                <div id="menu">
+                    <a href="contact.html"><span>CONTACT</span></a>
+                    <a href="aboutus.html"><span>ABOUT US<span></a>
+                    <div id="dropdown">
+                    <a style="text-decoration: underline rgb(197, 115, 47); color: rgb(197, 115, 47);" href="http://localhost/SSD/book.php" style="border: none;"><span>BOOK</span></a>
+                        <div id="dropdown-container">
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Contains the main role or function of the selected page where it holds the data and the main contents of the page -->
+        <main id="main">
+            <!-- contains the form of login -->
+            <div class="login-container"> 
+                <center><span style="color: black;" >Welcome to</span></center>
+                <h2><center><span style="color: black;">SERENE SKYLINE LODGINGS</span></center></h2>
+                <h2><center><span style=" color:black;">Elegance Elevated, Comfort Redefine</span></center></h2>
+
+                <form class="login-form" method="post">
+                    <div class="form-group">
+                        <label for="username">Enter your Username:</label>
+                        <input type="text" id="username" name="empUser" placeholder="Username" 
+                        style="<?php echo $errorStyleUsername; ?>"
+                        required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Enter your Password:</label>
+                        <input type="password" id="password" name="emp_password" placeholder="Password" 
+                        style="<?php echo $errorStylePassword; ?>"
+                        required>
+                    </div>
+                    
+                    <div class="form-group" id="SignBttn">
+                        <button type="submit" name="submit">Sign In</button>
+                        <div id="orSignup">
+                            <a href="#"><img src="Pics/Login-Pics/fbicon.png"/></a>
+                            <a href="#"><img src="Pics/Login-Pics/googleicon.png"/></a>
+                            <a href="#"><img id="x" src="Pics/Login-Pics/xicon.webp"/></a>
+                        </div>
+                        <hr>
+
+                    </div>
+                </form>
+            </div>
+        </main>
+        <!-- Footer -->
+        <footer id="footer">
+            <h2 style="font-family: Lucida Console; color:rgb(255, 255, 255); position: absolute; left: 10px;">THE PURGE IT ELECTIVE <span style="color: rgb(10, 148, 10);"></h2>
+            <h3 style="font-family: Lucida Console; position: absolute; right: 30px; bottom: 5px;">Contact Us: (63+)9913894341</h3>
+            <ul id="findUs">
+                <li><a href="#"><img src="Pics/Icon-pics/facebook.png"/></a></li>
+                <li><a href="#"><img src="Pics/Icon-pics/instagram.png"/></a></li>
+                <li><a href="#"><img src="Pics/Icon-pics/pinterest.png"/></a></li>
+            </ul>
+        </footer>
+
+    </div>
+</body>
+</html>
